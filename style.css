@@ -1,0 +1,157 @@
+body {
+  height:100%
+  padding: 0px;
+  margin:0px;
+  font-family: sans-serif;
+  font-size:2vmin;
+}
+
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.homeheaderSection{
+  display: flex;
+  justify-content: center;
+  /* padding-left: 8vmin; */
+  align-items: center;
+  height: 25vmin;
+  font-size: 3vw;
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 	#D80000;
+  background-color: black;
+}
+
+.descriptionBox{
+
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  background-color: white;
+  font-size: 1vw;
+  padding-left: 4vmin;
+  padding-right: 4vmin;
+  margin-top: 3vmin;
+  border-radius: 3vw;
+  margin-bottom: 3vmin;
+  line-height: 6vmin;
+  border-style: dashed;
+  border-width: thick;
+  background-image: url(papertexture.jpeg);
+}
+.headerSection{
+  display: flex;
+  justify-content: center;
+  /* padding-left: 8vmin; */
+  align-items: center;
+  height: 25vmin;
+  background-image: url(billy.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  background-color: black;
+  background-position: center;
+  font-size: 3vw;
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 	#D80000;
+}
+
+.navWrapper{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.navMenu{
+  display: flex;
+  flex-direction: row;
+  height: 10vmin;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 2vmin;
+}
+.navLink{
+  display: flex;
+  flex-direction: row;
+  padding: 5vmin;
+  font-size: 2vmin;
+  font-weight: bold;
+}
+
+.navMenu:hover{
+  background-color: #202020;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-shadow: 2px 2px #FF9900 ;
+}
+
+.insetContent{
+  background-image: url(backgroundimage.jpg);
+  background-position: center;
+}
+
+.insetContent2{
+  background-image: url(billy2.jpg);
+  background-position: center;
+}
+
+.insetContentinner{
+  margin-left:25vw;
+  margin-right:25vw;
+
+}
+
+.songTitles{
+
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-size: 1vw;
+  padding: 2vmin;
+  margin-top: 3vmin;
+  border-radius: 3vw;
+  margin-bottom: 3vmin;
+  line-height: 6vmin;
+  border-style: dashed;
+  border-width: thick;
+  background-image: url(papertexture.jpeg);
+
+}
+
+.songTitles a:hover{
+  text-decoration: underline;
+  text-shadow: none;
+  cursor: pointer;
+}
+.songTitles a:nth-child(even){
+  color: red;
+}
+.songTitles a{
+  color: black;
+}
+.songTitles a:visited{
+  color: #00008B;
+}
